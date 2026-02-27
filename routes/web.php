@@ -25,7 +25,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
-    Route::resource('companies', \App\Http\Controllers\Company\CompanyController::class);
+    Route::resource('companies', \App\Modules\Company\Controllers\CompanyController::class);
 });
 
 require __DIR__.'/auth.php';

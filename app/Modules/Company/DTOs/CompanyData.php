@@ -1,8 +1,8 @@
 <?php
 
-namespace App\DTOs;
+namespace App\Modules\Company\DTOs;
 
-use App\Http\Requests\CompanyRequest;
+use App\Modules\Company\Requests\CompanyRequest;
 
 class CompanyData
 {
